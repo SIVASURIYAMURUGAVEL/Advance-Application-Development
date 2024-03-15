@@ -1,0 +1,45 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #002e6e;
+
+  top: 0;
+  left: 0;
+  z-index: 101;
+  width: 100%;
+  position: sticky;
+}
+
+.logo {
+  width: 45px;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-container p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(249, 249, 249);
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.profile-logo {
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid;
+  color: rgb(249, 249, 249);
+}
+.login-text {
+  color: rgb(249, 249, 249);
+}

@@ -1,0 +1,15 @@
+.form-group .select {
+  width: 104%;
+  padding: 10px 6px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+.form-group p {
+  margin-top: 0;
+}
+
+.description {
+  padding: 0 20px;
+}
