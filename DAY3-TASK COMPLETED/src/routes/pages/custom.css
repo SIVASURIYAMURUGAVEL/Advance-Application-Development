@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=PT+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.recharge-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+  margin-top: 34px;
+}
+
+.left-content {
+  width: 50%;
+  padding: 47px;
+}
+.right-content {
+  display: flex;
+  width: 50%;
+  height: auto;
+  justify-content: flex-end;
+}
+
+img.lady-img {
+  width: 260px;
+}
+
+.title {
+  margin: 5px 0 10px 0;
+  font-size: 21px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+.title-box svg {
+  font-size: 33px;
+  margin-right: 15px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px 6px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+.title-box p,
+.title-box h5 {
+  margin: 0;
+}
+
+.btn-submit {
+  padding: 10px 2.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(22, 5, 130);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+.select option {
+  padding: 20px 0;
+}
+
+.option {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+
+ul {
+  list-style: circle;
+}
+
+.description h1,
+h2 {
+  color: #0f0f10;
+  font-size: 1rem;
+}
+.description p {
+  color: rgb(101, 100, 100);
+  text-align: justify;
+}
+
+ol li {
+  color: rgb(101, 100, 100);
+  font-size: 16px;
+}
